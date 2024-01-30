@@ -142,7 +142,7 @@ export default function Tasks() {
         </TableBody>
             </Table> 
             
-            {taskData.length === 0 &&  <div className='w-full h-[30vh] border-2 rounded-2xl flex items-center justify-center'>
+            {taskData.length === 0 &&  <div className='w-full h-[15vh] border-2 rounded-2xl flex items-center justify-center'>
             No Tasks
         </div>
         }

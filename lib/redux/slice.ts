@@ -15,9 +15,13 @@ interface TasksState {
   tasks: Task[];
 }
 
-const initialState: TasksState = {
-  tasks: JSON.parse(localStorage.getItem("tasks") as string) ?? [],
+const getInitialState = (): TasksState => {
+  return {
+    tasks: JSON.parse(localStorage.getItem("tasks") as string) ?? [],
+  };
 };
+
+const initialState: TasksState = getInitialState();
 
 const tasksSlice = createSlice({
   name: 'tasks',
