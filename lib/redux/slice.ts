@@ -17,7 +17,8 @@ interface TasksState {
 
 const getInitialState = (): TasksState => {
   return {
-    tasks: JSON.parse(localStorage.getItem("tasks") as string) ?? [],
+    tasks: typeof window !== 'undefined' ? JSON.parse(localStorage.getItem("tasks") as string) ?? [] : [],
+
   };
 };
 
