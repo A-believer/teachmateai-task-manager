@@ -1,3 +1,5 @@
+"use client"
+
 // slices/tasksSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
