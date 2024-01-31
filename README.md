@@ -26,6 +26,6 @@ npm run dev
 
 ### Production URL
 
-Find the deployed staging application at [Streams Foundation](https://streams-fe.vercel.app/). Explore, contribute, and make this project even better!
+Find the deployed staging application at ([Teachmate AI](https://teachmateai-task-manager.vercel.app/)). Explore, contribute, and make this project even better!
 
 Happy coding! 🚀
